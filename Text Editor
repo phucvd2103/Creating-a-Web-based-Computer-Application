@@ -1,0 +1,4 @@
+function saveText() {
+    const text = document.getElementById('textInput').value;
+    alert('Text saved: ' + text);
+}
