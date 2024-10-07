@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-based Computer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="desktop">
+        <!-- Taskbar -->
+        <div class="taskbar">
+            <button onclick="openApp('calculator')">Calculator</button>
+            <button onclick="openApp('textEditor')">Text Editor</button>
+            <button onclick="openApp('fileManager')">File Manager</button>
+        </div>
+
+        <!-- Application Windows -->
+        <div id="appWindow" class="app-window"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
